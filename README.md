@@ -31,6 +31,17 @@ Connect with other developers and marketers using AI in advertising:
 - 🚀 **Collaborate** on open source projects
 - 🔧 **Get help** with technical implementation
 
+### 🚀 Try Our One-Click Integration
+
+Skip the manual setup and get started instantly:
+
+**[One-Click MCP Integration](https://gomarble.ai/mcp)** - Connect Google Analytics and other tools to Claude Desktop in seconds
+
+- ⚡ **Instant Setup** - No manual configuration required
+- 🔐 **Secure Authentication** - Built-in OAuth handling
+- 📊 **Multiple Integrations** - Google Analytics, Google Ads, Meta Ads, and more
+- 📖 **Documentation** - Complete integration guide at **[gomarble.ai/docs](https://gomarble.ai/docs)**
+
 ## ✨ Features
 
 - 🔐 **Automatic OAuth 2.0** - One-time browser authentication with auto-refresh
