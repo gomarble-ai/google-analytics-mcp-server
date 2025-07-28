@@ -8,13 +8,30 @@
 
 Connect Google Analytics 4 data directly to Claude Desktop and other MCP clients with seamless OAuth 2.0 authentication, automatic token refresh, comprehensive reporting, and analytics capabilities.
 
-## Join our community for help and updates
+## 🌟 Open Source & Community
 
-👉 **Slack Community -** [AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-36hntbyf8-FSFixmwLb9mtEzVZhsToJQ)
+### GoMarble AI Open Source Projects
 
-## Try our other opensource MCP servers also
+Check out our other open source contributions at [GoMarble AI GitHub](https://github.com/gomarble-ai):
 
-👉 **Opensource MCP Servers -** [Opensource MCP Servers](https://github.com/gomarble-ai)
+- **Analytics Tools** - Advanced analytics and reporting solutions
+- **AI Integration** - Tools for integrating AI with marketing platforms
+- **MCP Servers** - Additional Model Context Protocol implementations
+- **Marketing Automation** - Open source marketing automation tools
+
+Visit us at: **[github.com/gomarble-ai](https://github.com/gomarble-ai)**
+
+### Join Our Community
+
+Connect with other developers and marketers using AI in advertising:
+
+**[Join our Slack Community - AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-36hntbyf8-FSFixmwLb9mtEzVZhsToJQ)**
+
+- 💬 **Discuss** AI applications in advertising
+- 🤝 **Share** your projects and get feedback
+- 📚 **Learn** from industry experts
+- 🚀 **Collaborate** on open source projects
+- 🔧 **Get help** with technical implementation
 
 ## ✨ Features
 
