@@ -57,7 +57,6 @@ Before setting up the MCP server, you'll need:
 1. **In your Google Cloud Console:**
    - Go to "APIs & Services" → "Library"
    - Search for "Google Analytics Data API" and enable it
-   - Search for "Google Analytics Admin API" and enable it
 
 ### 1.3 Create OAuth 2.0 Credentials
 
