@@ -8,6 +8,14 @@
 
 Connect Google Analytics 4 data directly to Claude Desktop and other MCP clients with seamless OAuth 2.0 authentication, automatic token refresh, comprehensive reporting, and analytics capabilities.
 
+## Join our community for help and updates
+
+👉 **Slack Community -** [AI in Ads](https://join.slack.com/t/ai-in-ads/shared_invite/zt-36hntbyf8-FSFixmwLb9mtEzVZhsToJQ)
+
+## Try our other opensource MCP servers also
+
+👉 **Opensource MCP Servers -** [Opensource MCP Servers](https://github.com/gomarble-ai)
+
 ## ✨ Features
 
 - 🔐 **Automatic OAuth 2.0** - One-time browser authentication with auto-refresh
