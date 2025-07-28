@@ -1,0 +1,16 @@
+fastmcp>=0.8.0
+
+# HTTP requests for API calls
+requests>=2.31.0
+
+# Environment configuration
+python-dotenv>=1.0.0
+
+# Google OAuth and Authentication (cohnen's approach)
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# Additional dependencies
+urllib3>=2.0.0
+typing-extensions>=4.0.0

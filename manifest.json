@@ -1,0 +1,100 @@
+{
+  "dxt_version": "0.1",
+  "name": "google-analytics-mcp-server",
+  "display_name": "Google Analytics MCP Server",
+  "version": "0.1.0",
+  "description": "A Python MCP server for Google Analytics 4 API integration with OAuth 2.0 authentication",
+  "long_description": "This extension provides comprehensive Google Analytics 4 reporting and analysis capabilities through a Python MCP server. It enables programmatic access to GA4 data including property management, page views, user metrics, events, traffic sources, device analytics, and comprehensive custom reporting through the Google Analytics Data API and Admin API with automatic OAuth 2.0 authentication and token refresh.",
+  "author": {
+    "name": "GoMarble AI",
+    "email": "support@gomarble.ai",
+    "url": "https://github.com/gomarble-ai"
+  },
+  "icon": "favicon.png",
+  "server": {
+    "type": "python",
+    "entry_point": "server.py",
+    "mcp_config": {
+      "command": "python",
+      "args": [
+        "${__dirname}/server.py"
+      ],
+      "env": {
+        "GOOGLE_ANALYTICS_OAUTH_CONFIG_PATH": "${user_config.oauth_config_path}",
+        "PYTHONPATH": "${__dirname}/lib"
+      },
+      "cwd": "${__dirname}"
+    }
+  },
+  "tools": [
+    {
+      "name": "list_properties",
+      "description": "List all Google Analytics 4 accounts with their associated properties in a hierarchical structure"
+    },
+    {
+      "name": "get_page_views",
+      "description": "Get page view metrics for a specific date range from Google Analytics 4"
+    },
+    {
+      "name": "get_active_users",
+      "description": "Get active users metrics for a specific date range from Google Analytics 4"
+    },
+    {
+      "name": "get_events",
+      "description": "Get event metrics for a specific date range from Google Analytics 4"
+    },
+    {
+      "name": "get_traffic_sources",
+      "description": "Get traffic source metrics for a specific date range from Google Analytics 4"
+    },
+    {
+      "name": "get_device_metrics",
+      "description": "Get device metrics for a specific date range from Google Analytics 4"
+    },
+    {
+      "name": "run_report",
+      "description": "Execute comprehensive Google Analytics 4 reports with full customization capabilities"
+    }
+  ],
+  "resources": [
+    {
+      "name": "ga4://reference",
+      "description": "Google Analytics 4 API reference documentation with metrics, dimensions, and examples"
+    }
+  ],
+  "keywords": [
+    "google",
+    "analytics",
+    "ga4",
+    "web-analytics",
+    "reporting",
+    "metrics",
+    "dimensions",
+    "traffic",
+    "users",
+    "pageviews",
+    "events",
+    "oauth"
+  ],
+  "license": "MIT",
+  "user_config": {
+    "oauth_config_path": {
+      "type": "string",
+      "title": "OAuth Configuration Path",
+      "description": "Full path to your Google Cloud OAuth 2.0 client credentials JSON file for Google Analytics API access",
+      "required": true,
+      "sensitive": false
+    }
+  },
+  "compatibility": {
+    "claude_desktop": ">=0.10.0",
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "python": ">=3.10.0 <4"
+    }
+  }
+} 
