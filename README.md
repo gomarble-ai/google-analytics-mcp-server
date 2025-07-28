@@ -19,8 +19,6 @@ Check out our other open source contributions at [GoMarble AI GitHub](https://gi
 - **MCP Servers** - Additional Model Context Protocol implementations
 - **Marketing Automation** - Open source marketing automation tools
 
-Visit us at: **[github.com/gomarble-ai](https://github.com/gomarble-ai)**
-
 ### Join Our Community
 
 Connect with other developers and marketers using AI in advertising:
